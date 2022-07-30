@@ -1,7 +1,8 @@
 import React from 'react'
 import st from 'styled-components/native'
-import {SafeAreaView, Text, useColorScheme, View} from 'react-native'
+import {useColorScheme} from 'react-native'
 import {Colors} from 'react-native/Libraries/NewAppScreen'
+import {Counter} from './views/Coutner'
 
 const SafeArea = st.SafeAreaView`
   flex : 1;
@@ -10,9 +11,6 @@ const SafeArea = st.SafeAreaView`
   alignItems : center
 `
 
-const TextBox = st.Text`
-  fontSize : 20px
-`
 const App = () => {
   const isDarkMode = useColorScheme() === 'dark'
 
@@ -22,7 +20,7 @@ const App = () => {
 
   return (
     <SafeArea style={backgroundStyle}>
-      <TextBox>Hello world</TextBox>
+      <Counter />
     </SafeArea>
   )
 }
