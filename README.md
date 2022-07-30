@@ -54,4 +54,20 @@
   1. M1은 arm기반이라 arch 명령이 arm64이다. ffi 설치 시 아키텍쳐를 x86_64로 지정해야함
 ```
 
-####
+### Setting
+
+<h1> Styled-components </h1>
+
+```
+    npm install --save styled-components
+    npm install --save-dev babel-plugin-styled-components @types/styled-components @types/styled-components-react-native
+
+    // babel.config.js
+
+    module.exports = {
+    ...
+    plugins: ['babel-plugin-styled-components'],
+    };
+```
+
+<h1></h1>
