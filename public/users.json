@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "name": "leedonggyu",
+    "job": "backend"
+  },
+  {
+    "id": 2,
+    "name": "limjeahyock",
+    "job": "front"
+  },
+  {
+    "id": 3,
+    "name": "sinjungyeon",
+    "job": "police"
+  },
+  {
+    "id": 4,
+    "name": "kimhyeoncheol",
+    "job": "police"
+  }
+]

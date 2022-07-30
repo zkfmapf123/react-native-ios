@@ -1,5 +1,5 @@
 make --dry-run --always-make --keep-going --print-directory
 make: Entering directory `/Users/dk/dev/ios/SampleApp'
-react-native run-ios
+rm -rf node_modules && npm i
 make: Leaving directory `/Users/dk/dev/ios/SampleApp'
  
