@@ -1,0 +1,5 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory `/Users/dk/dev/ios/SampleApp'
+react-native run-ios
+make: Leaving directory `/Users/dk/dev/ios/SampleApp'
+ 
